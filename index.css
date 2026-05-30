@@ -360,7 +360,7 @@ body{
     }
 
     .hero-text h1{
-        font-size: 4rem;
+        font-size: 3rem;
     }
 
     .cards{
@@ -378,4 +378,30 @@ body{
     color: inherit;
     display: block;
 }
+
+.hero-buttons{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 900px){
+
+    .hero-buttons{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .hero-buttons a{
+        width: 100%;
+        text-align: center;
+    }
+
+}
+
+
+
+
+
+
 
